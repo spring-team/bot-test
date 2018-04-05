@@ -1,0 +1,8 @@
+---
+applications:
+- name: "bot-test"
+  memory: 512M
+  instances: 1
+  buildpack: https://github.com/cloudfoundry/nodejs-buildpack
+  env:
+    ATOMIST_TEAMS: T5964N9B7
